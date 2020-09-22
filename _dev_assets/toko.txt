@@ -1,0 +1,14 @@
+1. access control list
+2. tambahkan jurnal umum untuk memasukkan transaksi selain penjualan dan pembelian 
+   jika memilih penjualan / pembelian maka akan muncul pesan untuk memblokir
+3. di tabel penjualan, pembelian dan semua transaksi selain jurnal umum ditambahkan field kdrekening
+4. lap neraca, rugi laba dan semua jenis buku
+5. laporan semuanya dipindah dan dijadikan satu
+6. Untuk penjualan dan pembelian dengan kartu debit tetap melalui menu pembelian atau penjualan default kita buat dengan metode bayar cash dan di samp[ingnya kita beri pilihan tobol dengan kartu debit / transfer (sudah ada)
+7. Jika pada saat Penjualan / pembelian memilih metode bayar dengan transfer / dengan kartu debit maka yang berfungsi rekening adalah rekening persediaan barang dagang dan rekening bank
+8. Jika penjualan dengan sistem hutang (pembayaran tunda) maka yang bekerja adalah rekening persedian barang dan rekening piutang barang dagang
+9. Jika pembelian dengan sistem hutang (pembayaran tunda) maka yang bekerja adalah rekening persedian barang dan rekening *hutang * barang dagang
+10. Jika melakukan transaksi pembayaran hutang barang dagang secara tunai maka yang bekerja adalah rekening hutang dengan rekening Buku Kas
+11. Jika melakukan transaksi pembayaran hutang barang dagang secara transfer maka yang bekerja adalah rekening hutang dengan rekening Buku Bank
+12. Jika melakukan transaksi penerimaan pembayaran piutang dagang secara tunai maka yang bekerja adalah rekening piutang dagang dengan rekening Buku Kas
+13. Jika melakukan transaksi penerimaan pembayaran piutang dagang secara transfer maka yang bekerja adalah rekening piutang dagang dengan rekening Buku Bank
